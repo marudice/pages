@@ -3,18 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>My Jekyll | My Description. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-</title>
+  <title>Hello World! | My Jekyll</title>
   <!-- Normalize.css -->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Main CSS -->
   <link rel="stylesheet" href="/assets/css/style.css">
-  <meta name="description" content="My Description. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-">
+  <meta name="description" content="First Post.">
   <meta name="viewport" content="width=device-width">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/2017/02/21/hello-world.html">
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="My Jekyll" />
 </head>
 
@@ -35,61 +33,40 @@
 
 
 
-<div class="contents front-page">
+<div class="contents page">
   <div class="container">
 
-    <!-- 記事一覧 -->
-    
-      <article class="archive">
-        <h2 class="archive__title"><a href="/2017/02/24/piyo.html">Piyo</a></h2>
-        <p class="archive__date"><time>February 24, 2017</time></p>
-        <div class="archive__excerpt"><p>Piyo</p>
+    <div class="page__header">
+      <h1 class="page__title">Hello World!</h1>
+      <p class="page__date">February 21, 2017</p>
+    </div>
 
-</div>
-      </article>
-    
-      <article class="archive">
-        <h2 class="archive__title"><a href="/2017/02/23/fuga.html">Fuga!</a></h2>
-        <p class="archive__date"><time>February 23, 2017</time></p>
-        <div class="archive__excerpt"><p>Fuga</p>
+    <div class="page__body">
 
-</div>
-      </article>
-    
-      <article class="archive">
-        <h2 class="archive__title"><a href="/2017/02/22/moge.html">Moge!</a></h2>
-        <p class="archive__date"><time>February 22, 2017</time></p>
-        <div class="archive__excerpt"><p>Moge</p>
 
-</div>
-      </article>
-    
+      <p>First Post.</p>
 
-    <!-- ページネーション -->
-    
-      <div class="pagination">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        
 
-        
-          
-            <span class="pagination__item current">1</span>
-          
-        
-          
-            <a class="pagination__item" href="page2">2</a>
-          
-        
 
-        
-          <a class="pagination__item" href="/page2">次のページ &gt;</a>
-        
+    </div><!--page__body-->
 
-      </div><!--pagination-->
-    
+    <!-- 前後のページへのリンクを表示したい -->
+    <div class="pager">
+
+      
+        <p class="pager__item--next">
+          <a href="/2017/02/22/moge.html">&lt; Moge!</a>
+        </p>
+      
+
+      
+
+    </div><!--pager-->
 
   </div><!--container-->
-</div><!--main-->
+</div><!--page-->
 
 
 

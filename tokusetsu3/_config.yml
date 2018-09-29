@@ -1,0 +1,21 @@
+title: My Jekyll
+description: >
+  My Description. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+baseurl: ""
+url: "http://e-joint.jp"
+
+author:
+  name: e-JOINT.jp
+  email: mail@example.com
+  github: ejointjp
+  twitter: ejointjp
+
+paginate: 3
+paginate_path: "page:num"
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
