@@ -1,7 +1,7 @@
 title: My Jekyll
 description: >
   My Description. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-baseurl: ""
+baseurl: "page/"
 url: "http://e-joint.jp"
 
 author:
