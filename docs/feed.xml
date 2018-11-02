@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator>
+  <link href="https://marudice.com/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://marudice.com/" rel="alternate" type="text/html" />
+  <updated>2018-11-02T18:16:11+09:00</updated>
+  <id>https://marudice.com/</id>
+
+  
+    <title type="html">丸ダイス / Marudice</title>
+  
+
+  
+    <subtitle>インディーゲーム開発チーム「丸ダイス」の公式ページです. / Official web of Marudice, indie game development team.
+</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">0</title>
+      <link href="https://marudice.com/2018/11/02/2ThRiddleOpen/" rel="alternate" type="text/html" title="0" />
+      <published>2018-11-02T00:00:00+09:00</published>
+      <updated>2018-11-02T00:00:00+09:00</updated>
+      <id>https://marudice.com/2018/11/02/2ThRiddleOpen</id>
+      <content type="html" xml:base="https://marudice.com/2018/11/02/2ThRiddleOpen/">&lt;p&gt;&lt;a href=&quot;https://marudice.com/thriddle/&quot; target=&quot;_blank&quot;&gt;Treehouse Riddleのプロダクトサイト&lt;/a&gt;を公開しました！&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">Treehouse Riddleのプロダクトサイトを公開しました！</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">0</title>
+      <link href="https://marudice.com/2018/11/02/1PitaOpen/" rel="alternate" type="text/html" title="0" />
+      <published>2018-11-02T00:00:00+09:00</published>
+      <updated>2018-11-02T00:00:00+09:00</updated>
+      <id>https://marudice.com/2018/11/02/1PitaOpen</id>
+      <content type="html" xml:base="https://marudice.com/2018/11/02/1PitaOpen/">&lt;p&gt;&lt;a href=&quot;https://marudice.com/pitagora/&quot; target=&quot;_blank&quot;&gt;ピタゴラスの永久機関のプロダクトサイト&lt;/a&gt;を公開しました！&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">ピタゴラスの永久機関のプロダクトサイトを公開しました！</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">0</title>
+      <link href="https://marudice.com/2018/11/02/0SiteOpen/" rel="alternate" type="text/html" title="0" />
+      <published>2018-11-02T00:00:00+09:00</published>
+      <updated>2018-11-02T00:00:00+09:00</updated>
+      <id>https://marudice.com/2018/11/02/0SiteOpen</id>
+      <content type="html" xml:base="https://marudice.com/2018/11/02/0SiteOpen/">&lt;p&gt;この公式サイトをオープンしました！&lt;br /&gt;
+&lt;a href=&quot;http://marudice.hatenablog.jp&quot; target=&quot;_blank&quot;&gt;ブログ&lt;/a&gt;は今後イベントの出展詳細や開発記事を載せて、サークル情報のまとめはこちらに集約していきます。&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">この公式サイトをオープンしました！ ブログは今後イベントの出展詳細や開発記事を載せて、サークル情報のまとめはこちらに集約していきます。</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
