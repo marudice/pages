@@ -5408,19 +5408,19 @@ header .intro-text .skills {
     -moz-transition: all .3s;
     transition: all .3s; }
 
-  .navbar-fixed-top .navbar-brand img {
-    height: 40px;
-    padding-right: 15px; }
-
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0; }
 
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em; }
 
-  .navbar-fixed-top.navbar-shrink .navbar-brand img {
+  .navbar-fixed-top .navbar-brand img {
     height: 40px;
-    padding-right: 10px; } }
+    padding-right: 15px; } }
+@media (max-width: 767px) {
+  .navbar-fixed-top .navbar-brand img {
+    height: 32px;
+    padding-right: 15px; } }
 .navbar {
   /*    text-transform: uppercase;*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;

@@ -37,15 +37,8 @@
   font-weight: 500;
   font-size: 15px; }
 
-.platforms {
-  margin: auto;
-  width: 600px; }
-  .platforms .badges {
-    overflow: hidden; }
-    .platforms .badges a {
-      float: left; }
-      .platforms .badges a img {
-        height: 58px; }
+.platforms .badges a img {
+  max-height: 58px; }
 
 .portfolio-item .product-title {
   text-align: center; }
