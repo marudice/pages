@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator>
   <link href="https://marudice.com/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://marudice.com/" rel="alternate" type="text/html" />
-  <updated>2018-12-20T07:10:30+09:00</updated>
+  <updated>2018-12-20T07:26:29+09:00</updated>
   <id>https://marudice.com/</id>
 
   
@@ -54,11 +54,11 @@
   
     <entry>
       <title type="html">0</title>
-      <link href="https://marudice.com/2018/11/03/steam/" rel="alternate" type="text/html" title="0" />
-      <published>2018-11-03T00:00:00+09:00</published>
-      <updated>2018-11-03T00:00:00+09:00</updated>
-      <id>https://marudice.com/2018/11/03/steam</id>
-      <content type="html" xml:base="https://marudice.com/2018/11/03/steam/">&lt;p&gt;&lt;a href=&quot;https://marudice.com/thriddle/&quot; target=&quot;_blank&quot;&gt;Treehouse Riddleのプロダクトサイト&lt;/a&gt;を公開しました！&lt;/p&gt;</content>
+      <link href="https://marudice.com/2018/11/13/steam/" rel="alternate" type="text/html" title="0" />
+      <published>2018-11-13T00:00:00+09:00</published>
+      <updated>2018-11-13T00:00:00+09:00</updated>
+      <id>https://marudice.com/2018/11/13/steam</id>
+      <content type="html" xml:base="https://marudice.com/2018/11/13/steam/">&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/889100&quot; target=&quot;_blank&quot;&gt;ピタゴラスの永久機関のSteam版&lt;/a&gt;が配信開始しました！&lt;/p&gt;</content>
 
       
       
@@ -77,7 +77,7 @@
       
 
       
-        <summary type="html">Treehouse Riddleのプロダクトサイトを公開しました！</summary>
+        <summary type="html">ピタゴラスの永久機関のSteam版が配信開始しました！</summary>
       
 
       
