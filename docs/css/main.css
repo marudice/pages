@@ -5361,6 +5361,11 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto; }
 
+page-header {
+  padding-top: 100px;
+  text-align: center;
+  color: #fff; }
+
 header {
   text-align: center;
   color: #fff;
