@@ -1,33 +1,662 @@
-<div class="contents page">
-  <div class="container">
 
-    <div class="page__header">
-      <h1 class="page__title">0</h1>
-      <p class="page__date">August 04, 2018</p>
+
+
+
+<!DOCTYPE html>
+<!--
+  Theme: Tokusetsu 3
+  by @sanographix
+  http://www.sanographix.net
+  (c) 2016 Showkaku Sano
+  Free to use under the MIT license.
+-->
+<html prefix="og: http://ogp.me/ns#">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129350261-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-129350261-1');
+  </script>
+
+  <meta charset="utf-8">
+
+  <title>Treehouse Riddle</title>
+
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="" />
+  <meta property="og:type" content="website" />
+
+  <meta property="og:site_name" content="Treehouse Riddle" />
+  <link rel="canonical" href="https://marudice.com/thriddle"/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image:src" content="/thriddle/assets/images/og.jpg">
+  <meta property="og:url" content="https://marudice.com/thriddle" />
+  <meta property="og:title" content="Treehouse Riddle" />
+  <meta name="og:description" content="" />
+  <meta property="og:image" content="/thriddle/assets/images/og.jpg" />
+
+  
+    <link rel="stylesheet" href="/thriddle/assets/css/style-dark.css" />
+  
+
+  <link rel="stylesheet" type="text/css" href="/thriddle/assets/css/jquery.jscrollpane.css" media="all"/>
+  <link rel="stylesheet" href="/thriddle/assets/css/style.css">
+  <link rel="stylesheet" href="/thriddle/assets/css/colorbox.css">
+  <link rel="shortcut icon" href="/thriddle/assets/images/favicon.png">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/thriddle/assets/js/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="/thriddle/assets/js/jquery.jscrollpane.min.js"></script>
+  <script type="text/javascript" src="/thriddle/assets/js/jquery.colorbox-min.js"></script>
+  <script type="text/javascript">
+  $(function()
+  {
+      $('.scrollable').jScrollPane();
+      $('.bookSample-content a').colorbox({
+        rel:"screenshot",
+        opacity: 0.5,
+        maxHeight:"95%",
+        maxWidth:"95%",
+        current : "{current}/{total}"
+      });
+      $('.section-introduction a').colorbox({
+        rel:"introduction",
+        opacity: 0.5,
+        maxHeight:"95%",
+        maxWidth:"95%",
+        current : "{current}/{total}"
+      });
+  });
+  </script>
+  <style type="text/css">
+  body {
+    font-family:Helvetica Neue;
+  }
+
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family:Helvetica Neue;
+  }
+  </style>
+</head>
+<body class="page-index"
+  style="background-image: url('/thriddle/assets/images/background.jpg'); background-size: 50%;"
+>
+
+<div class="globalHeader
+  is-transparent
+"
+style="background-color: #f5c23a;">
+  <div class="l-container">
+    <div class="globalHeader-inner">
+      <div class="globalHeader-labelName">
+        <a href="https://marudice.com">
+          <img class="labelName-logoImg" src="/thriddle/assets/images/circle_logo.png" alt="丸ダイス / Marudice" style="width: 200px;">
+          
+        </a>
+      </div>
+      <div class="globalHeader-shareBtns">
+        <div class="lang-icons">
+          <a href="/thriddle/"><img src="/thriddle/assets/images/jp.png" alt="Japanese" class="lang-icon"></a>
+          <a href="/thriddle/en"><img src="/thriddle/assets/images/en.png" alt="english" class="lang-icon"></a>
+        </div>
+        <a href="https://twitter.com/share?text=Treehouse Riddle - 丸ダイス / Marudice&url=https://marudice.com/thriddle" class="btn-tw" target="_blank">
+          <svg class="social-share-icon" xmlns="https://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-591 391.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6-1.2-1.3-2.9-2.1-4.8-2.1-3.6 0-6.6 2.9-6.6 6.6 0 .5.1 1 .2 1.5-5.5-.3-10.3-2.9-13.5-6.9-.6 1-.9 2.1-.9 3.3 0 2.3 1.2 4.3 2.9 5.5-1.1 0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4 0-.8 0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5 0-1.1 0-1.6-.1 2.9 1.9 6.4 2.9 10.1 2.9 12.1 0 18.7-10 18.7-18.7v-.8c1.3-1 2.4-2.1 3.3-3.4z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/sharer.php?u=https://marudice.com/thriddle" class="btn-fb" target="_blank">
+          <svg class="social-share-icon" xmlns="https://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-605 417h-6v-16h-4v-5.5h4v-3.2c0-4.5 1.2-7.2 6.5-7.2h4.4v5.5h-2.8c-2.1 0-2.2.8-2.2 2.2v2.8h5l-.6 5.5h-4.4l.1 15.9z"/></svg>
+        </a>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="page__body">
+<div class="heroHeader">
+  <div class="heroHeader-inner
+  is-position-top
+  has-headerImage
+  " style="background-image: url('/thriddle/assets/images/header.jpg');">
+    <header class="header">
+      <div class="l-container">
+        <h1>
+          
+            <img class="header-logo" src="/thriddle/assets/images/title_logo.png" alt="Treehouse Riddle" style="width: 750px;">
+          
+        </h1>
+        
+      </div>
+    </header>
+  </div>
+</div>
+
+<section class="l-section section-introduction">
+  <div class="l-container">
+      <header class="section-header">
+        <h2>
+          
+        </h2>
+      </header>
+    
+    
+  </div>
+</section>
 
 
-      <p>4gamer様の<a href="https://www.4gamer.net/games/040/G004096/20180803165/">夏コミ新作のまとめ記事</a>にてピックアップして頂きました！</p>
+
+
+<section class="l-section section-bookSample">
+  <div class="l-container">
+    <header class="section-header">
+      <h2>ScreenShot</h2>
+    </header>
+    <div class="bookSample-container
+    bookSample-items1
+    bookSample-items2
+    bookSample-items3
+    bookSample-items4
+    bookSample-items5
+    bookSample-items6
+    bookSample-items7
+    bookSample-items8
+    bookSample-items9
+    bookSample-items10
+    bookSample-items11
+    bookSample-items12
+    bookSample-items13
+    bookSample-items14
+    bookSample-items15
+    bookSample-items16
+    bookSample-items17
+    bookSample-items18
+    bookSample-items19
+    bookSample-items20
+    bookSample-items21
+    bookSample-items22
+    bookSample-items23
+    bookSample-items24
+    bookSample-items25
+    
+    ">
+    
+      <div class="bookSample-content" data-index="1">
+        <a href="/thriddle/assets/images/ss/ss24.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss24.jpg" class="bookSample-image bookSample-image1">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="2">
+        <a href="/thriddle/assets/images/ss/ss0.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss0.jpg" class="bookSample-image bookSample-image2">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="3">
+        <a href="/thriddle/assets/images/ss/ss17.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss17.jpg" class="bookSample-image bookSample-image3">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="4">
+        <a href="/thriddle/assets/images/ss/ss18.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss18.jpg" class="bookSample-image bookSample-image4">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="5">
+        <a href="/thriddle/assets/images/ss/ss19.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss19.jpg" class="bookSample-image bookSample-image5">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="6">
+        <a href="/thriddle/assets/images/ss/ss20.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss20.jpg" class="bookSample-image bookSample-image6">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="7">
+        <a href="/thriddle/assets/images/ss/ss21.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss21.jpg" class="bookSample-image bookSample-image7">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="8">
+        <a href="/thriddle/assets/images/ss/ss22.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss22.jpg" class="bookSample-image bookSample-image8">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="9">
+        <a href="/thriddle/assets/images/ss/ss23.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss23.jpg" class="bookSample-image bookSample-image9">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="10">
+        <a href="/thriddle/assets/images/ss/ss1.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss1.jpg" class="bookSample-image bookSample-image10">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="11">
+        <a href="/thriddle/assets/images/ss/ss2.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss2.jpg" class="bookSample-image bookSample-image11">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="12">
+        <a href="/thriddle/assets/images/ss/ss3.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss3.jpg" class="bookSample-image bookSample-image12">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="13">
+        <a href="/thriddle/assets/images/ss/ss4.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss4.jpg" class="bookSample-image bookSample-image13">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="14">
+        <a href="/thriddle/assets/images/ss/ss5.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss5.jpg" class="bookSample-image bookSample-image14">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="15">
+        <a href="/thriddle/assets/images/ss/ss6.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss6.jpg" class="bookSample-image bookSample-image15">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="16">
+        <a href="/thriddle/assets/images/ss/ss7.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss7.jpg" class="bookSample-image bookSample-image16">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="17">
+        <a href="/thriddle/assets/images/ss/ss8.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss8.jpg" class="bookSample-image bookSample-image17">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="18">
+        <a href="/thriddle/assets/images/ss/ss9.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss9.jpg" class="bookSample-image bookSample-image18">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="19">
+        <a href="/thriddle/assets/images/ss/ss10.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss10.jpg" class="bookSample-image bookSample-image19">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="20">
+        <a href="/thriddle/assets/images/ss/ss11.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss11.jpg" class="bookSample-image bookSample-image20">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="21">
+        <a href="/thriddle/assets/images/ss/ss12.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss12.jpg" class="bookSample-image bookSample-image21">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="22">
+        <a href="/thriddle/assets/images/ss/ss13.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss13.jpg" class="bookSample-image bookSample-image22">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="23">
+        <a href="/thriddle/assets/images/ss/ss14.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss14.jpg" class="bookSample-image bookSample-image23">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="24">
+        <a href="/thriddle/assets/images/ss/ss15.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss15.jpg" class="bookSample-image bookSample-image24">
+        </a>
+      </div>
+    
+      <div class="bookSample-content" data-index="25">
+        <a href="/thriddle/assets/images/ss/ss16.jpg">
+          <img src="/thriddle/assets/images/ss_t/ss16.jpg" class="bookSample-image bookSample-image25">
+        </a>
+      </div>
+    
+    </div>
+    
+    <div class="l-container">
+      <span><a href="/thriddle/assets/press_kit/ScreenShot.zip">download all screenshots as zip(11.2MB)</a></span>
+    </div>
+    
+  </div>
+</section>
+
+  <div class="bookSample-lightbox" data-index="1">
+    <img src="/thriddle/assets/images/ss/ss24.jpg" class="bookSample-lightbox-image bookSample-lightbox-image1">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="2">
+    <img src="/thriddle/assets/images/ss/ss0.jpg" class="bookSample-lightbox-image bookSample-lightbox-image2">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="3">
+    <img src="/thriddle/assets/images/ss/ss17.jpg" class="bookSample-lightbox-image bookSample-lightbox-image3">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="4">
+    <img src="/thriddle/assets/images/ss/ss18.jpg" class="bookSample-lightbox-image bookSample-lightbox-image4">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="5">
+    <img src="/thriddle/assets/images/ss/ss19.jpg" class="bookSample-lightbox-image bookSample-lightbox-image5">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="6">
+    <img src="/thriddle/assets/images/ss/ss20.jpg" class="bookSample-lightbox-image bookSample-lightbox-image6">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="7">
+    <img src="/thriddle/assets/images/ss/ss21.jpg" class="bookSample-lightbox-image bookSample-lightbox-image7">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="8">
+    <img src="/thriddle/assets/images/ss/ss22.jpg" class="bookSample-lightbox-image bookSample-lightbox-image8">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="9">
+    <img src="/thriddle/assets/images/ss/ss23.jpg" class="bookSample-lightbox-image bookSample-lightbox-image9">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="10">
+    <img src="/thriddle/assets/images/ss/ss1.jpg" class="bookSample-lightbox-image bookSample-lightbox-image10">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="11">
+    <img src="/thriddle/assets/images/ss/ss2.jpg" class="bookSample-lightbox-image bookSample-lightbox-image11">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="12">
+    <img src="/thriddle/assets/images/ss/ss3.jpg" class="bookSample-lightbox-image bookSample-lightbox-image12">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="13">
+    <img src="/thriddle/assets/images/ss/ss4.jpg" class="bookSample-lightbox-image bookSample-lightbox-image13">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="14">
+    <img src="/thriddle/assets/images/ss/ss5.jpg" class="bookSample-lightbox-image bookSample-lightbox-image14">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="15">
+    <img src="/thriddle/assets/images/ss/ss6.jpg" class="bookSample-lightbox-image bookSample-lightbox-image15">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="16">
+    <img src="/thriddle/assets/images/ss/ss7.jpg" class="bookSample-lightbox-image bookSample-lightbox-image16">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="17">
+    <img src="/thriddle/assets/images/ss/ss8.jpg" class="bookSample-lightbox-image bookSample-lightbox-image17">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="18">
+    <img src="/thriddle/assets/images/ss/ss9.jpg" class="bookSample-lightbox-image bookSample-lightbox-image18">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="19">
+    <img src="/thriddle/assets/images/ss/ss10.jpg" class="bookSample-lightbox-image bookSample-lightbox-image19">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="20">
+    <img src="/thriddle/assets/images/ss/ss11.jpg" class="bookSample-lightbox-image bookSample-lightbox-image20">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="21">
+    <img src="/thriddle/assets/images/ss/ss12.jpg" class="bookSample-lightbox-image bookSample-lightbox-image21">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="22">
+    <img src="/thriddle/assets/images/ss/ss13.jpg" class="bookSample-lightbox-image bookSample-lightbox-image22">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="23">
+    <img src="/thriddle/assets/images/ss/ss14.jpg" class="bookSample-lightbox-image bookSample-lightbox-image23">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="24">
+    <img src="/thriddle/assets/images/ss/ss15.jpg" class="bookSample-lightbox-image bookSample-lightbox-image24">
+  </div>
+
+  <div class="bookSample-lightbox" data-index="25">
+    <img src="/thriddle/assets/images/ss/ss16.jpg" class="bookSample-lightbox-image bookSample-lightbox-image25">
+  </div>
 
 
 
-    </div><!--page__body-->
 
-    <!-- 前後のページへのリンクを表示したい -->
-    <div class="pager">
 
-      
-        <p class="pager__item--next">
-          <a href="/thriddle/2018/08/10/C94.html">&lt; 0</a>
-        </p>
-      
+<section class="l-section">
+  <div class="l-container">
+    <header class="section-header">
+      <h2>News and info</h2>
+    </header>
+    <div class="l-row scrollable news" style="overflow: hidden; height: 300px;">
+      <div class="l-span10">
+        
+        
+        <dl><dt>2019.09.14</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2019.08.18</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2019.01.02</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2018.12.31</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2018.12.20</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2018.08.19</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2018.08.16</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2018.08.16</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2018.08.10</dt><dd>
+</dd></dl>
+        
+        
+        
+        <dl><dt>2018.08.04</dt><dd>
+</dd></dl>
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
 
-      
+<section class="l-section section-spec">
+  <div class="l-container">
+    <header class="section-header">
+      <h2>Specification</h2>
+    </header>
+    <div class="l-row">
+      <div class="l-span6">
+        <dl class="spec-dl">
+          <dt><span class="spec-dl-label">TITLE</span></dt>
+          <dd>Treehouse Riddle</dd>
 
-    </div><!--pager-->
+          <dt><span class="spec-dl-label">GAME GENRE</span></dt>
+          <dd></dd>
 
-  </div><!--container-->
-</div><!--page-->
+          <dt><span class="spec-dl-label">DEVELOPER</span></dt>
+          <dd>丸ダイス / Marudice</dd>
 
+        </dl>
+        
+      </div>
+      <div class="l-span6">
+        <dl class="spec-dl">
+          <dt><span class="spec-dl-label">RELEASE DATE</span></dt>
+          <dd>2018-08-10</dd>
+
+          <dt><span class="spec-dl-label">LANGUAGE</span></dt>
+          <dd>日本語 / English / 中文(簡体字) / 中文(繁体字) / 한국어</dd>
+
+          
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="l-section section-credit">
+    <div class="l-container">
+      <header class="section-header">
+        <h2>Staff</h2>
+      </header>
+      <div class="section-content">
+        <ul class="credit">
+        
+        <li>
+          <span class="credit-role">Direction, Program, Art, etc</span>
+          <span class="credit-title">丸ダイス / Marudice</span>
+          
+          <span class="credit-website">
+            <a href="https://marudice.com" class="credit-website-link btn">Website</a>
+          </span>
+          
+        </li>
+        
+        <li>
+          <span class="credit-role">Riddle supervisor, Riddle design</span>
+          <span class="credit-title">Puzzler K</span>
+          
+        </li>
+        
+        <li>
+          <span class="credit-role">Artwork</span>
+          <span class="credit-title">MJ</span>
+          
+        </li>
+        
+        <li>
+          <span class="credit-role">Scenario Cooperation</span>
+          <span class="credit-title">M</span>
+          
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section class="l-section section-contact">
+  <div class="l-container">
+    <header class="section-header">
+      <h2>Contact</h2>
+    </header>
+    <div class="section-content">
+      <div>
+        <dl>
+          <dt>Developer web</dt><dd><a href="https://marudice.com">Marudice </a></dd>
+          <dt>Mail</dt><dd><a href="mailto:marudice@gmail.com">marudice@gmail.com</a></dd>
+          <dt>Twitter</dt><dd><a href="https://twitter.com/dice_maru">@dice_maru</a></dd>
+          <dt>Blog</dt><dd><a href=""></a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="l-section section-share">
+  <div class="l-container">
+    <div class="footer-shareBtns">
+      <a href="https://twitter.com/share?text=Treehouse Riddle - 丸ダイス / Marudice&url=https://marudice.com/thriddle" class="btn-tw" target="_blank">
+        <svg class="social-share-icon" xmlns="https://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-591 391.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6-1.2-1.3-2.9-2.1-4.8-2.1-3.6 0-6.6 2.9-6.6 6.6 0 .5.1 1 .2 1.5-5.5-.3-10.3-2.9-13.5-6.9-.6 1-.9 2.1-.9 3.3 0 2.3 1.2 4.3 2.9 5.5-1.1 0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4 0-.8 0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5 0-1.1 0-1.6-.1 2.9 1.9 6.4 2.9 10.1 2.9 12.1 0 18.7-10 18.7-18.7v-.8c1.3-1 2.4-2.1 3.3-3.4z"/></svg>
+      </a>
+      <a href="https://www.facebook.com/sharer.php?u=https://marudice.com/thriddle" class="btn-fb" target="_blank">
+        <svg class="social-share-icon" xmlns="https://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-605 417h-6v-16h-4v-5.5h4v-3.2c0-4.5 1.2-7.2 6.5-7.2h4.4v5.5h-2.8c-2.1 0-2.2.8-2.2 2.2v2.8h5l-.6 5.5h-4.4l.1 15.9z"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Note: Do not delete the following section.
+ここから先のセクションは消去しないでください -->
+<footer class="l-section section-footer">
+  <div class="l-container">
+    <div class="footer-content">
+      <div class="footer-copyright">
+        <span class="footer-title">
+          <a href="https://marudice.com/thriddle">
+            Treehouse Riddle
+          </a>
+        </span>
+        <span class="footer-copyright">
+          ©2018
+          <a href="https://marudice.com">
+            丸ダイス / Marudice
+          </a>
+        </span>
+        
+      </div>
+      <div class="footer-theme">
+        <div class="footer-theme-author">
+          <span class="footer-theme-tokusetsu3">
+            Made with
+            <a href="https://sanographix.github.io/tokusetsu3/" target="_blank">Tokusetsu 3</a>
+          </span>
+          <span class="footer-theme-">
+            Template designed by <a href="https://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a>
+          </span>
+        </div>
+        <div class="install-button">
+          <a href="https://sanographix.github.io/tokusetsu3/" class="footer-install-btn" target="_blank">Install theme</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- <script src="https://static.tumblr.com/xxf6ewk/d2Wp79z1k/scripts.js"></script> -->
+
+</body>
+</html>
