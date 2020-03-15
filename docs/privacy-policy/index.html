@@ -25,30 +25,31 @@
     <!-- twitter card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image:src" content="https://marudice.com/img/og.jpg">
-    <meta property="og:url" content="https://marudice.com" />
-    <meta property="og:title" content="丸ダイス / Marudice" />
     <meta name="og:description" content="インディーゲーム開発チーム「丸ダイス」の公式ページです. / Official web of Marudice, indie game development team.
 " />
+    <meta property="og:url" content="https://marudice.com" />
+    <meta property="og:title" content="丸ダイス / Marudice" />
     <meta property="og:image" content="https://marudice.com/img/og.jpg" />
 
+    <!-- stylesheet -->
     <!-- jscrollpane -->
     <link rel="stylesheet" type="text/css" href="/css/jquery.jscrollpane.css" media="all"/>
-
+    <!-- theme -->
     <link rel="stylesheet" href="/css/main.css">
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/css/style.css">
-
-    <!-- Google verification -->
-    
-
-    <!-- Bing Verification -->
-    
-
+    <!-- colorbox -->
+    <link rel="stylesheet" href="/css/colorbox.css">
     <!-- Custom Fonts -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Google verification -->
+    
+    <!-- Bing Verification -->
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -130,34 +131,41 @@ AdMob（Google Inc.）<br/>
 
      <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery-1.11.0.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="/js/jquery.easing.min.js"></script>
     <script src="/js/classie.js"></script>
     <script src="/js/cbpAnimatedHeader.js"></script>
-
     <!-- Contact Form JavaScript -->
     <script src="/js/jqBootstrapValidation.js"></script>
     
     <script src="/js/contact_me_static.js"></script>
     
-
     <!-- Custom Theme JavaScript -->
     <script src="/js/freelancer.js"></script>
-
+    <!-- colorbox -->
+    <script src="/js/jquery.colorbox-min.js"></script>
     <!-- jscrollpane -->
     <script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
     <script type="text/javascript" src="/js/jquery.jscrollpane.min.js"></script>
-
     
+
 
     <script type="text/javascript">
     $(function()
     {
-        $('.scrollable').jScrollPane();
+      $('.scrollable').jScrollPane();
+      $('.portfolio-item a').colorbox({
+        inline:true,
+        opacity: 0.5,
+        maxWidth:"90%",
+        width: "1000px"
+        // maxHeight:"40%",
+      });
+      // $("#btn_close").click(function(){
+      //   $(this).parents('.portfolio-modal').$.fn.colorbox.close(); return false;
+      // });
     });
     </script>
 

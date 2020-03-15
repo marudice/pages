@@ -23,15 +23,24 @@ span.privacy-policy {
 .product-link-button:hover, .product-link-button:active, .product-link-button:focus {
   text-decoration: none !important; }
 
-.modal-body img {
+.modal-content .main-image {
+  margin-top: 20px;
+  margin-bottom: 30px;
   max-height: 420px; }
-.modal-body .product-link {
+.modal-content .product-link {
   margin: 20px 0 30px 0; }
-.modal-body .product-link-button {
+.modal-content .product-link-button {
   padding: 16px;
   border-radius: 10px;
   font-weight: 700;
   font-size: 20px; }
+.modal-content p {
+  margin-top: 10px; }
+.modal-content .badges a {
+  padding: 0px; }
+.modal-content .badges img {
+  padding: 0px;
+  margin-bottom: 5px; }
 
 .portfolio-item .product-link {
   width: 100%;
