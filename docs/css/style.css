@@ -170,3 +170,13 @@ span.privacy-policy {
     .news dd p {
       margin-block-start: 0em;
       margin-block-end: 0em; }
+
+.lang-icons {
+  height: 60px;
+  margin-right: 15px;
+  margin-left: 30px; }
+  .lang-icons .lang-icon {
+    width: 50px;
+    margin-right: 5px;
+    padding-top: 13.5px;
+    padding-bottom: 13.5px; }

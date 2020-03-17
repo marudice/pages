@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator>
   <link href="https://marudice.com/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://marudice.com/" rel="alternate" type="text/html" />
-  <updated>2020-03-16T05:29:31+09:00</updated>
+  <updated>2020-03-18T01:19:08+09:00</updated>
   <id>https://marudice.com/</id>
 
   
@@ -22,11 +22,11 @@
   
     <entry>
       <title type="html">0</title>
-      <link href="https://marudice.com/2020/03/15/earthman/" rel="alternate" type="text/html" title="0" />
-      <published>2020-03-15T00:00:00+09:00</published>
-      <updated>2020-03-15T00:00:00+09:00</updated>
-      <id>https://marudice.com/2020/03/15/earthman</id>
-      <content type="html" xml:base="https://marudice.com/2020/03/15/earthman/">&lt;p&gt;開発中タイトルとして「地球人の島」を掲載しました&lt;/p&gt;</content>
+      <link href="https://marudice.com/2020/03/18/english/" rel="alternate" type="text/html" title="0" />
+      <published>2020-03-18T00:00:00+09:00</published>
+      <updated>2020-03-18T00:00:00+09:00</updated>
+      <id>https://marudice.com/2020/03/18/english</id>
+      <content type="html" xml:base="https://marudice.com/2020/03/18/english/"></content>
 
       
       
@@ -45,7 +45,39 @@
       
 
       
-        <summary type="html">開発中タイトルとして「地球人の島」を掲載しました</summary>
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">0</title>
+      <link href="https://marudice.com/2020/03/15/earthman/" rel="alternate" type="text/html" title="0" />
+      <published>2020-03-15T00:00:00+09:00</published>
+      <updated>2020-03-15T00:00:00+09:00</updated>
+      <id>https://marudice.com/2020/03/15/earthman</id>
+      <content type="html" xml:base="https://marudice.com/2020/03/15/earthman/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html"></summary>
       
 
       
@@ -58,7 +90,7 @@
       <published>2020-03-15T00:00:00+09:00</published>
       <updated>2020-03-15T00:00:00+09:00</updated>
       <id>https://marudice.com/2020/03/15/casuals</id>
-      <content type="html" xml:base="https://marudice.com/2020/03/15/casuals/">&lt;p&gt;ゲームジャム参加作品など、短期開発作品を掲載しました。&lt;/p&gt;</content>
+      <content type="html" xml:base="https://marudice.com/2020/03/15/casuals/"></content>
 
       
       
@@ -77,7 +109,7 @@
       
 
       
-        <summary type="html">ゲームジャム参加作品など、短期開発作品を掲載しました。</summary>
+        <summary type="html"></summary>
       
 
       
@@ -90,7 +122,7 @@
       <published>2019-08-01T00:00:00+09:00</published>
       <updated>2019-08-01T00:00:00+09:00</updated>
       <id>https://marudice.com/2019/08/01/C96</id>
-      <content type="html" xml:base="https://marudice.com/2019/08/01/C96/">&lt;p&gt;&lt;a href=&quot;http://marudice.hatenablog.jp/entry/2019/08/01/215608&quot; target=&quot;_blank&quot;&gt;コミックマーケット96の出展情報&lt;/a&gt;をブログで公開しました！&lt;/p&gt;</content>
+      <content type="html" xml:base="https://marudice.com/2019/08/01/C96/"></content>
 
       
       
@@ -109,7 +141,7 @@
       
 
       
-        <summary type="html">コミックマーケット96の出展情報をブログで公開しました！</summary>
+        <summary type="html"></summary>
       
 
       
@@ -122,7 +154,7 @@
       <published>2019-07-27T00:00:00+09:00</published>
       <updated>2019-07-27T00:00:00+09:00</updated>
       <id>https://marudice.com/2019/07/27/1EqualineOpen</id>
-      <content type="html" xml:base="https://marudice.com/2019/07/27/1EqualineOpen/">&lt;p&gt;&lt;a href=&quot;https://marudice.com/equaline/&quot; target=&quot;_blank&quot;&gt;EQUALINEのプロダクトサイト&lt;/a&gt;を公開しました！&lt;/p&gt;</content>
+      <content type="html" xml:base="https://marudice.com/2019/07/27/1EqualineOpen/"></content>
 
       
       
@@ -141,7 +173,7 @@
       
 
       
-        <summary type="html">EQUALINEのプロダクトサイトを公開しました！</summary>
+        <summary type="html"></summary>
       
 
       
@@ -154,7 +186,7 @@
       <published>2018-12-20T00:00:00+09:00</published>
       <updated>2018-12-20T00:00:00+09:00</updated>
       <id>https://marudice.com/2018/12/20/C95</id>
-      <content type="html" xml:base="https://marudice.com/2018/12/20/C95/">&lt;p&gt;&lt;a href=&quot;http://marudice.hatenablog.jp/entry/2018/12/20/064624&quot; target=&quot;_blank&quot;&gt;コミックマーケット95の出展情報&lt;/a&gt;をブログで公開しました！&lt;/p&gt;</content>
+      <content type="html" xml:base="https://marudice.com/2018/12/20/C95/"></content>
 
       
       
@@ -173,7 +205,7 @@
       
 
       
-        <summary type="html">コミックマーケット95の出展情報をブログで公開しました！</summary>
+        <summary type="html"></summary>
       
 
       
@@ -186,7 +218,7 @@
       <published>2018-11-13T00:00:00+09:00</published>
       <updated>2018-11-13T00:00:00+09:00</updated>
       <id>https://marudice.com/2018/11/13/steam</id>
-      <content type="html" xml:base="https://marudice.com/2018/11/13/steam/">&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/889100&quot; target=&quot;_blank&quot;&gt;ピタゴラスの永久機関のSteam版&lt;/a&gt;が配信開始しました！&lt;/p&gt;</content>
+      <content type="html" xml:base="https://marudice.com/2018/11/13/steam/"></content>
 
       
       
@@ -205,7 +237,7 @@
       
 
       
-        <summary type="html">ピタゴラスの永久機関のSteam版が配信開始しました！</summary>
+        <summary type="html"></summary>
       
 
       
@@ -218,7 +250,7 @@
       <published>2018-11-02T00:00:00+09:00</published>
       <updated>2018-11-02T00:00:00+09:00</updated>
       <id>https://marudice.com/2018/11/02/2ThRiddleOpen</id>
-      <content type="html" xml:base="https://marudice.com/2018/11/02/2ThRiddleOpen/">&lt;p&gt;&lt;a href=&quot;https://marudice.com/thriddle/&quot; target=&quot;_blank&quot;&gt;Treehouse Riddleのプロダクトサイト&lt;/a&gt;を公開しました！&lt;/p&gt;</content>
+      <content type="html" xml:base="https://marudice.com/2018/11/02/2ThRiddleOpen/"></content>
 
       
       
@@ -237,7 +269,7 @@
       
 
       
-        <summary type="html">Treehouse Riddleのプロダクトサイトを公開しました！</summary>
+        <summary type="html"></summary>
       
 
       
@@ -250,7 +282,7 @@
       <published>2018-11-02T00:00:00+09:00</published>
       <updated>2018-11-02T00:00:00+09:00</updated>
       <id>https://marudice.com/2018/11/02/1PitaOpen</id>
-      <content type="html" xml:base="https://marudice.com/2018/11/02/1PitaOpen/">&lt;p&gt;&lt;a href=&quot;https://marudice.com/pitagora/&quot; target=&quot;_blank&quot;&gt;ピタゴラスの永久機関のプロダクトサイト&lt;/a&gt;を公開しました！&lt;/p&gt;</content>
+      <content type="html" xml:base="https://marudice.com/2018/11/02/1PitaOpen/"></content>
 
       
       
@@ -269,7 +301,7 @@
       
 
       
-        <summary type="html">ピタゴラスの永久機関のプロダクトサイトを公開しました！</summary>
+        <summary type="html"></summary>
       
 
       
@@ -282,8 +314,7 @@
       <published>2018-11-02T00:00:00+09:00</published>
       <updated>2018-11-02T00:00:00+09:00</updated>
       <id>https://marudice.com/2018/11/02/0SiteOpen</id>
-      <content type="html" xml:base="https://marudice.com/2018/11/02/0SiteOpen/">&lt;p&gt;この公式サイトをオープンしました！&lt;br /&gt;
-&lt;a href=&quot;http://marudice.hatenablog.jp&quot; target=&quot;_blank&quot;&gt;ブログ&lt;/a&gt;は今後イベントの出展詳細や開発記事を載せて、サークル情報のまとめはこちらに集約していきます。&lt;/p&gt;</content>
+      <content type="html" xml:base="https://marudice.com/2018/11/02/0SiteOpen/"></content>
 
       
       
@@ -302,7 +333,7 @@
       
 
       
-        <summary type="html">この公式サイトをオープンしました！ ブログは今後イベントの出展詳細や開発記事を載せて、サークル情報のまとめはこちらに集約していきます。</summary>
+        <summary type="html"></summary>
       
 
       
