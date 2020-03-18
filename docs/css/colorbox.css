@@ -166,7 +166,7 @@
   overflow: visible;
   right: 0;
   width: 100%;
-  height: 50px;
+  height: 0px;
   background: #dddddd;
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
