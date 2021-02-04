@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <!--
   Theme: Tokusetsu 3
@@ -30,28 +34,44 @@
   <meta property="og:site_name" content="ピタゴラスの永久機関 / Pythagoras' Perpetual Motion Machine" />
   <link rel="canonical" href="https://marudice.com/pitagora"/>
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image:src" content="https://marudice.com/pitagora/assets/images/og.jpg">
+  <meta name="twitter:image:src" content="/pitagora/assets/images/og.jpg">
   <meta property="og:url" content="https://marudice.com/pitagora" />
   <meta property="og:title" content="ピタゴラスの永久機関 / Pythagoras' Perpetual Motion Machine" />
   <meta name="og:description" content="ピタゴラスの永久機関 / Pythagoras' Perpetual Motion Machine, official web
 " />
-  <meta property="og:image" content="https://marudice.com/pitagora/assets/images/og.jpg" />
+  <meta property="og:image" content="/pitagora/assets/images/og.jpg" />
 
   
-    <link rel="stylesheet" href="assets/css/style-dark.css" />
+    <link rel="stylesheet" href="/pitagora/assets/css/style-dark.css" />
   
 
-  <link rel="stylesheet" type="text/css" href="assets/css/jquery.jscrollpane.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="/pitagora/assets/css/jquery.jscrollpane.css" media="all"/>
   <link rel="stylesheet" href="/pitagora/assets/css/style.css">
-  <link rel="shortcut icon" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="/pitagora/assets/css/colorbox.css">
+  <link rel="shortcut icon" href="/pitagora/assets/images/favicon.png">
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.mousewheel.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.jscrollpane.min.js"></script>
+  <script type="text/javascript" src="/pitagora/assets/js/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="/pitagora/assets/js/jquery.jscrollpane.min.js"></script>
+  <script type="text/javascript" src="/pitagora/assets/js/jquery.colorbox-min.js"></script>
   <script type="text/javascript">
   $(function()
   {
       $('.scrollable').jScrollPane();
+      $('.bookSample-content a').colorbox({
+        rel:"screenshot",
+        opacity: 0.5,
+        maxHeight:"95%",
+        maxWidth:"95%",
+        current : "{current}/{total}"
+      });
+      $('.section-introduction a').colorbox({
+        rel:"introduction",
+        opacity: 0.5,
+        maxHeight:"95%",
+        maxWidth:"95%",
+        current : "{current}/{total}"
+      });
   });
   </script>
   <style type="text/css">
@@ -66,7 +86,7 @@
   </style>
 </head>
 <body class="page-index"
-  style="background-image: url('assets/images/background.png');"
+  style="background-image: url('/pitagora/assets/images/background.png'); background-size: 50%;"
 >
 
 <div class="globalHeader
@@ -77,18 +97,19 @@ style="background-color: #3a78f5;">
     <div class="globalHeader-inner">
       <div class="globalHeader-labelName">
         <a href="https://marudice.com">
-          <img class="labelName-logoImg" src="assets/images/circle_logo.png" alt="丸ダイス / Marudice" style="width: 200px;">
+          <img class="labelName-logoImg" src="/pitagora/assets/images/circle_logo.png" alt="丸ダイス / Marudice" style="width: 200px;">
           
         </a>
       </div>
-        <div class="globalHeader-shareBtns">
-          <a href="https://twitter.com/share?text=ピタゴラスの永久機関 / Pythagoras' Perpetual Motion Machine - 丸ダイス / Marudice&url=https://marudice.com/pitagora" class="btn-tw" target="_blank">
-            <svg class="social-share-icon" xmlns="https://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-591 391.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6-1.2-1.3-2.9-2.1-4.8-2.1-3.6 0-6.6 2.9-6.6 6.6 0 .5.1 1 .2 1.5-5.5-.3-10.3-2.9-13.5-6.9-.6 1-.9 2.1-.9 3.3 0 2.3 1.2 4.3 2.9 5.5-1.1 0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4 0-.8 0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5 0-1.1 0-1.6-.1 2.9 1.9 6.4 2.9 10.1 2.9 12.1 0 18.7-10 18.7-18.7v-.8c1.3-1 2.4-2.1 3.3-3.4z"/></svg>
-          </a>
-          <a href="https://www.facebook.com/sharer.php?u=https://marudice.com/pitagora" class="btn-fb" target="_blank">
-            <svg class="social-share-icon" xmlns="https://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-605 417h-6v-16h-4v-5.5h4v-3.2c0-4.5 1.2-7.2 6.5-7.2h4.4v5.5h-2.8c-2.1 0-2.2.8-2.2 2.2v2.8h5l-.6 5.5h-4.4l.1 15.9z"/></svg>
-          </a>
-        </div>
+      <div class="globalHeader-shareBtns">
+        
+        <a href="https://twitter.com/share?text=ピタゴラスの永久機関 / Pythagoras' Perpetual Motion Machine - 丸ダイス / Marudice&url=https://marudice.com/pitagora" class="btn-tw" target="_blank">
+          <svg class="social-share-icon" xmlns="https://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-591 391.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6-1.2-1.3-2.9-2.1-4.8-2.1-3.6 0-6.6 2.9-6.6 6.6 0 .5.1 1 .2 1.5-5.5-.3-10.3-2.9-13.5-6.9-.6 1-.9 2.1-.9 3.3 0 2.3 1.2 4.3 2.9 5.5-1.1 0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4 0-.8 0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5 0-1.1 0-1.6-.1 2.9 1.9 6.4 2.9 10.1 2.9 12.1 0 18.7-10 18.7-18.7v-.8c1.3-1 2.4-2.1 3.3-3.4z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/sharer.php?u=https://marudice.com/pitagora" class="btn-fb" target="_blank">
+          <svg class="social-share-icon" xmlns="https://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-605 417h-6v-16h-4v-5.5h4v-3.2c0-4.5 1.2-7.2 6.5-7.2h4.4v5.5h-2.8c-2.1 0-2.2.8-2.2 2.2v2.8h5l-.6 5.5h-4.4l.1 15.9z"/></svg>
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -97,28 +118,28 @@ style="background-color: #3a78f5;">
   <div class="heroHeader-inner
   is-position-top
   has-headerImage
-  " style="background-image: url('assets/images/header.jpg');">
+  " style="background-image: url('/pitagora/assets/images/header.jpg');">
     <header class="header">
       <div class="l-container">
         <h1>
           
-            <img class="header-logo" src="assets/images/title_logo.png" alt="ピタゴラスの永久機関 / Pythagoras' Perpetual Motion Machine" style="width: 600px;">
+            <img class="header-logo" src="/pitagora/assets/images/title_logo.png" alt="ピタゴラスの永久機関 / Pythagoras' Perpetual Motion Machine" style="width: 600px;">
           
         </h1>
         
         <div class="store">
           
           <div class="l-span4 store-badge">
-            <a href="https://store.steampowered.com/app/889100/Pythagoras_Perpetual_Motion_Machine/"><img src="assets/images/win-steam.png"/></a></div>
+            <a href="https://store.steampowered.com/app/889100/Pythagoras_Perpetual_Motion_Machine/"><img src="/pitagora/assets/images/win-steam.png"/></a></div>
           
           <div class="l-span4 store-badge">
-            <a href="http://www.dlsite.com/home/work/=/product_id/RJ206403.html"><img src="assets/images/win-dlsite.png"/></a></div>
+            <a href="http://www.dlsite.com/home/work/=/product_id/RJ206403.html"><img src="/pitagora/assets/images/win-dlsite.png"/></a></div>
           
           <div class="l-span4 store-badge">
-            <a href="https://play.google.com/store/apps/details?id=com.marudice.Pitagora"><img src="assets/images/google-play-badge.png"/></a></div>
+            <a href="https://play.google.com/store/apps/details?id=com.marudice.Pitagora"><img src="/pitagora/assets/images/google-play-badge.png"/></a></div>
           
           <div class="l-span4 store-badge">
-            <a href="https://itunes.apple.com/jp/app/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9%E3%81%AE%E6%B0%B8%E4%B9%85%E6%A9%9F%E9%96%A2/id1252012323?l=ja&ls=1&mt=8"><img src="assets/images/app-store-badge.png"/></a></div>
+            <a href="https://itunes.apple.com/jp/app/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9%E3%81%AE%E6%B0%B8%E4%B9%85%E6%A9%9F%E9%96%A2/id1252012323?l=ja&ls=1&mt=8"><img src="/pitagora/assets/images/app-store-badge.png"/></a></div>
           
         </div>
         
@@ -131,16 +152,19 @@ style="background-color: #3a78f5;">
   <div class="l-container">
       <header class="section-header">
         <h2>
-          しかけを使ってナゾを解く<br/>"永久機関"のピタゴラパズル
+          しかけを使ってナゾを解く<br/> "永久機関"のピタゴラパズル
 
         </h2>
       </header>
+    
     <div class="section-content">
       <p>
-        「ピタゴラスの永久機関」は、しかけを使って"永久機関"を作っていく"ピタゴラパズルゲーム"です。<br/> <br/> 転がる岩を曲げたり、止めたり、打ち出したり、重しにしたり…<br/> しかけの種類は様々で、時には自分自ら丸まって岩と一緒に転がって、塔に秘められた"永久機関"のナゾを解いていきます。<br/> <br/> たどり着いたのは天を突く巨大な塔。<br/> 塔の力の正体は？主人公の目的は？塔の頂点には何が待つのか？<br/> 残された石碑・パピルスを集めれば何かが分かるかもしれません。<br/> <br/> 40以上のステージで遊びごたえも十分。<br/> どうしても解けない時はヒントやスキップがあるので、パズルが苦手なひとでも安心です。<br/>
+        <p>「ピタゴラスの永久機関」は、しかけを使って”永久機関”を作っていく”ピタゴラパズルゲーム”です。<br /> <br /> 転がる岩を曲げたり、止めたり、打ち出したり、重しにしたり…<br /> しかけの種類は様々で、時には自分自ら丸まって岩と一緒に転がって、塔に秘められた”永久機関”のナゾを解いていきます。<br /> <br /> たどり着いたのは天を突く巨大な塔。<br /> 塔の力の正体は？主人公の目的は？塔の頂点には何が待つのか？<br /> 残された石碑・パピルスを集めれば何かが分かるかもしれません。<br /> <br /> 40以上のステージで遊びごたえも十分。<br /> どうしても解けない時はヒントやスキップがあるので、パズルが苦手なひとでも安心です。<br /></p>
 
       </p>
     </div>
+    
+    
   </div>
 </section>
 
@@ -153,17 +177,6 @@ style="background-color: #3a78f5;">
     <div class="section-content">
       <div id="youtube-iframe" class="video-wrap">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/P2CYM9GtNFE" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <div class="l-container">
-        <h3>Other trailer</h3>
-        
-        
-        <span><a href="https://www.youtube.com/watch?v=Tep03WNnLA8">Trailer Short</a></span>
-        
-        /
-        <span><a href="https://www.youtube.com/watch?v=rKX6TQCfwRc">Trailer JP</a></span>
-        
       </div>
       
     </div>
@@ -206,204 +219,252 @@ style="background-color: #3a78f5;">
     ">
     
       <div class="bookSample-content" data-index="1">
-        <img src="assets/images/ss_t/SsIntro.jpg" class="bookSample-image bookSample-image1">
+        <a href="/pitagora/assets/images/ss/SsIntro.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsIntro.jpg" class="bookSample-image bookSample-image1">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="2">
-        <img src="assets/images/ss_t/SsBall.jpg" class="bookSample-image bookSample-image2">
+        <a href="/pitagora/assets/images/ss/SsBall.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsBall.jpg" class="bookSample-image bookSample-image2">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="3">
-        <img src="assets/images/ss_t/SsLevels.jpg" class="bookSample-image bookSample-image3">
+        <a href="/pitagora/assets/images/ss/SsLevels.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsLevels.jpg" class="bookSample-image bookSample-image3">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="4">
-        <img src="assets/images/ss_t/SsMenu.jpg" class="bookSample-image bookSample-image4">
+        <a href="/pitagora/assets/images/ss/SsMenu.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsMenu.jpg" class="bookSample-image bookSample-image4">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="5">
-        <img src="assets/images/ss_t/SsStory.jpg" class="bookSample-image bookSample-image5">
+        <a href="/pitagora/assets/images/ss/SsStory.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsStory.jpg" class="bookSample-image bookSample-image5">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="6">
-        <img src="assets/images/ss_t/SsStory1.jpg" class="bookSample-image bookSample-image6">
+        <a href="/pitagora/assets/images/ss/SsStory1.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsStory1.jpg" class="bookSample-image bookSample-image6">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="7">
-        <img src="assets/images/ss_t/SsStory2.jpg" class="bookSample-image bookSample-image7">
+        <a href="/pitagora/assets/images/ss/SsStory2.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsStory2.jpg" class="bookSample-image bookSample-image7">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="8">
-        <img src="assets/images/ss_t/SsOp0.jpg" class="bookSample-image bookSample-image8">
+        <a href="/pitagora/assets/images/ss/SsOp0.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsOp0.jpg" class="bookSample-image bookSample-image8">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="9">
-        <img src="assets/images/ss_t/SsOp1.jpg" class="bookSample-image bookSample-image9">
+        <a href="/pitagora/assets/images/ss/SsOp1.jpg">
+          <img src="/pitagora/assets/images/ss_t/SsOp1.jpg" class="bookSample-image bookSample-image9">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="10">
-        <img src="assets/images/ss_t/ss0.jpg" class="bookSample-image bookSample-image10">
+        <a href="/pitagora/assets/images/ss/ss0.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss0.jpg" class="bookSample-image bookSample-image10">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="11">
-        <img src="assets/images/ss_t/ss1.jpg" class="bookSample-image bookSample-image11">
+        <a href="/pitagora/assets/images/ss/ss1.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss1.jpg" class="bookSample-image bookSample-image11">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="12">
-        <img src="assets/images/ss_t/ss2.jpg" class="bookSample-image bookSample-image12">
+        <a href="/pitagora/assets/images/ss/ss2.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss2.jpg" class="bookSample-image bookSample-image12">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="13">
-        <img src="assets/images/ss_t/ss3.jpg" class="bookSample-image bookSample-image13">
+        <a href="/pitagora/assets/images/ss/ss3.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss3.jpg" class="bookSample-image bookSample-image13">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="14">
-        <img src="assets/images/ss_t/ss4.jpg" class="bookSample-image bookSample-image14">
+        <a href="/pitagora/assets/images/ss/ss4.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss4.jpg" class="bookSample-image bookSample-image14">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="15">
-        <img src="assets/images/ss_t/ss5.jpg" class="bookSample-image bookSample-image15">
+        <a href="/pitagora/assets/images/ss/ss5.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss5.jpg" class="bookSample-image bookSample-image15">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="16">
-        <img src="assets/images/ss_t/ss6.jpg" class="bookSample-image bookSample-image16">
+        <a href="/pitagora/assets/images/ss/ss6.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss6.jpg" class="bookSample-image bookSample-image16">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="17">
-        <img src="assets/images/ss_t/ss7.jpg" class="bookSample-image bookSample-image17">
+        <a href="/pitagora/assets/images/ss/ss7.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss7.jpg" class="bookSample-image bookSample-image17">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="18">
-        <img src="assets/images/ss_t/ss8.jpg" class="bookSample-image bookSample-image18">
+        <a href="/pitagora/assets/images/ss/ss8.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss8.jpg" class="bookSample-image bookSample-image18">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="19">
-        <img src="assets/images/ss_t/ss9.jpg" class="bookSample-image bookSample-image19">
+        <a href="/pitagora/assets/images/ss/ss9.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss9.jpg" class="bookSample-image bookSample-image19">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="20">
-        <img src="assets/images/ss_t/ss10.jpg" class="bookSample-image bookSample-image20">
+        <a href="/pitagora/assets/images/ss/ss10.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss10.jpg" class="bookSample-image bookSample-image20">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="21">
-        <img src="assets/images/ss_t/ss11.jpg" class="bookSample-image bookSample-image21">
+        <a href="/pitagora/assets/images/ss/ss11.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss11.jpg" class="bookSample-image bookSample-image21">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="22">
-        <img src="assets/images/ss_t/ss12.jpg" class="bookSample-image bookSample-image22">
+        <a href="/pitagora/assets/images/ss/ss12.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss12.jpg" class="bookSample-image bookSample-image22">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="23">
-        <img src="assets/images/ss_t/ss13.jpg" class="bookSample-image bookSample-image23">
+        <a href="/pitagora/assets/images/ss/ss13.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss13.jpg" class="bookSample-image bookSample-image23">
+        </a>
       </div>
     
       <div class="bookSample-content" data-index="24">
-        <img src="assets/images/ss_t/ss14.jpg" class="bookSample-image bookSample-image24">
+        <a href="/pitagora/assets/images/ss/ss14.jpg">
+          <img src="/pitagora/assets/images/ss_t/ss14.jpg" class="bookSample-image bookSample-image24">
+        </a>
       </div>
     
     </div>
     
     <div class="l-container">
-      <span><a href="assets/press_kit/ScreenShot.zip">download all screenshots as zip(14.7MB)</a></span>
+      <span><a href="/pitagora/assets/press_kit/ScreenShot.zip">download all screenshots as zip(14.7MB)</a></span>
     </div>
     
   </div>
 </section>
 
   <div class="bookSample-lightbox" data-index="1">
-    <img src="assets/images/ss/SsIntro.jpg" class="bookSample-lightbox-image bookSample-lightbox-image1">
+    <img src="/pitagora/assets/images/ss/SsIntro.jpg" class="bookSample-lightbox-image bookSample-lightbox-image1">
   </div>
 
   <div class="bookSample-lightbox" data-index="2">
-    <img src="assets/images/ss/SsBall.jpg" class="bookSample-lightbox-image bookSample-lightbox-image2">
+    <img src="/pitagora/assets/images/ss/SsBall.jpg" class="bookSample-lightbox-image bookSample-lightbox-image2">
   </div>
 
   <div class="bookSample-lightbox" data-index="3">
-    <img src="assets/images/ss/SsLevels.jpg" class="bookSample-lightbox-image bookSample-lightbox-image3">
+    <img src="/pitagora/assets/images/ss/SsLevels.jpg" class="bookSample-lightbox-image bookSample-lightbox-image3">
   </div>
 
   <div class="bookSample-lightbox" data-index="4">
-    <img src="assets/images/ss/SsMenu.jpg" class="bookSample-lightbox-image bookSample-lightbox-image4">
+    <img src="/pitagora/assets/images/ss/SsMenu.jpg" class="bookSample-lightbox-image bookSample-lightbox-image4">
   </div>
 
   <div class="bookSample-lightbox" data-index="5">
-    <img src="assets/images/ss/SsStory.jpg" class="bookSample-lightbox-image bookSample-lightbox-image5">
+    <img src="/pitagora/assets/images/ss/SsStory.jpg" class="bookSample-lightbox-image bookSample-lightbox-image5">
   </div>
 
   <div class="bookSample-lightbox" data-index="6">
-    <img src="assets/images/ss/SsStory1.jpg" class="bookSample-lightbox-image bookSample-lightbox-image6">
+    <img src="/pitagora/assets/images/ss/SsStory1.jpg" class="bookSample-lightbox-image bookSample-lightbox-image6">
   </div>
 
   <div class="bookSample-lightbox" data-index="7">
-    <img src="assets/images/ss/SsStory2.jpg" class="bookSample-lightbox-image bookSample-lightbox-image7">
+    <img src="/pitagora/assets/images/ss/SsStory2.jpg" class="bookSample-lightbox-image bookSample-lightbox-image7">
   </div>
 
   <div class="bookSample-lightbox" data-index="8">
-    <img src="assets/images/ss/SsOp0.jpg" class="bookSample-lightbox-image bookSample-lightbox-image8">
+    <img src="/pitagora/assets/images/ss/SsOp0.jpg" class="bookSample-lightbox-image bookSample-lightbox-image8">
   </div>
 
   <div class="bookSample-lightbox" data-index="9">
-    <img src="assets/images/ss/SsOp1.jpg" class="bookSample-lightbox-image bookSample-lightbox-image9">
+    <img src="/pitagora/assets/images/ss/SsOp1.jpg" class="bookSample-lightbox-image bookSample-lightbox-image9">
   </div>
 
   <div class="bookSample-lightbox" data-index="10">
-    <img src="assets/images/ss/ss0.jpg" class="bookSample-lightbox-image bookSample-lightbox-image10">
+    <img src="/pitagora/assets/images/ss/ss0.jpg" class="bookSample-lightbox-image bookSample-lightbox-image10">
   </div>
 
   <div class="bookSample-lightbox" data-index="11">
-    <img src="assets/images/ss/ss1.jpg" class="bookSample-lightbox-image bookSample-lightbox-image11">
+    <img src="/pitagora/assets/images/ss/ss1.jpg" class="bookSample-lightbox-image bookSample-lightbox-image11">
   </div>
 
   <div class="bookSample-lightbox" data-index="12">
-    <img src="assets/images/ss/ss2.jpg" class="bookSample-lightbox-image bookSample-lightbox-image12">
+    <img src="/pitagora/assets/images/ss/ss2.jpg" class="bookSample-lightbox-image bookSample-lightbox-image12">
   </div>
 
   <div class="bookSample-lightbox" data-index="13">
-    <img src="assets/images/ss/ss3.jpg" class="bookSample-lightbox-image bookSample-lightbox-image13">
+    <img src="/pitagora/assets/images/ss/ss3.jpg" class="bookSample-lightbox-image bookSample-lightbox-image13">
   </div>
 
   <div class="bookSample-lightbox" data-index="14">
-    <img src="assets/images/ss/ss4.jpg" class="bookSample-lightbox-image bookSample-lightbox-image14">
+    <img src="/pitagora/assets/images/ss/ss4.jpg" class="bookSample-lightbox-image bookSample-lightbox-image14">
   </div>
 
   <div class="bookSample-lightbox" data-index="15">
-    <img src="assets/images/ss/ss5.jpg" class="bookSample-lightbox-image bookSample-lightbox-image15">
+    <img src="/pitagora/assets/images/ss/ss5.jpg" class="bookSample-lightbox-image bookSample-lightbox-image15">
   </div>
 
   <div class="bookSample-lightbox" data-index="16">
-    <img src="assets/images/ss/ss6.jpg" class="bookSample-lightbox-image bookSample-lightbox-image16">
+    <img src="/pitagora/assets/images/ss/ss6.jpg" class="bookSample-lightbox-image bookSample-lightbox-image16">
   </div>
 
   <div class="bookSample-lightbox" data-index="17">
-    <img src="assets/images/ss/ss7.jpg" class="bookSample-lightbox-image bookSample-lightbox-image17">
+    <img src="/pitagora/assets/images/ss/ss7.jpg" class="bookSample-lightbox-image bookSample-lightbox-image17">
   </div>
 
   <div class="bookSample-lightbox" data-index="18">
-    <img src="assets/images/ss/ss8.jpg" class="bookSample-lightbox-image bookSample-lightbox-image18">
+    <img src="/pitagora/assets/images/ss/ss8.jpg" class="bookSample-lightbox-image bookSample-lightbox-image18">
   </div>
 
   <div class="bookSample-lightbox" data-index="19">
-    <img src="assets/images/ss/ss9.jpg" class="bookSample-lightbox-image bookSample-lightbox-image19">
+    <img src="/pitagora/assets/images/ss/ss9.jpg" class="bookSample-lightbox-image bookSample-lightbox-image19">
   </div>
 
   <div class="bookSample-lightbox" data-index="20">
-    <img src="assets/images/ss/ss10.jpg" class="bookSample-lightbox-image bookSample-lightbox-image20">
+    <img src="/pitagora/assets/images/ss/ss10.jpg" class="bookSample-lightbox-image bookSample-lightbox-image20">
   </div>
 
   <div class="bookSample-lightbox" data-index="21">
-    <img src="assets/images/ss/ss11.jpg" class="bookSample-lightbox-image bookSample-lightbox-image21">
+    <img src="/pitagora/assets/images/ss/ss11.jpg" class="bookSample-lightbox-image bookSample-lightbox-image21">
   </div>
 
   <div class="bookSample-lightbox" data-index="22">
-    <img src="assets/images/ss/ss12.jpg" class="bookSample-lightbox-image bookSample-lightbox-image22">
+    <img src="/pitagora/assets/images/ss/ss12.jpg" class="bookSample-lightbox-image bookSample-lightbox-image22">
   </div>
 
   <div class="bookSample-lightbox" data-index="23">
-    <img src="assets/images/ss/ss13.jpg" class="bookSample-lightbox-image bookSample-lightbox-image23">
+    <img src="/pitagora/assets/images/ss/ss13.jpg" class="bookSample-lightbox-image bookSample-lightbox-image23">
   </div>
 
   <div class="bookSample-lightbox" data-index="24">
-    <img src="assets/images/ss/ss14.jpg" class="bookSample-lightbox-image bookSample-lightbox-image24">
+    <img src="/pitagora/assets/images/ss/ss14.jpg" class="bookSample-lightbox-image bookSample-lightbox-image24">
   </div>
 
 
@@ -437,35 +498,56 @@ style="background-color: #3a78f5;">
     <div class="l-row scrollable news" style="overflow: hidden; height: 300px;">
       <div class="l-span10">
         
-          <dl><dt>2018.11.03</dt><dd><p><a href="https://store.steampowered.com/app/889100/Pythagoras_Perpetual_Motion_Machine/">Steam版</a>の配信が11/13に決定しました！コントローラ操作とsteam実績が新規対応されています。 / Available at Steam on Nov 13!　New features are controller support and Steam achievement!</p>
+        
+        
+        <dl><dt>2018.11.03</dt><dd><p><a href="https://store.steampowered.com/app/889100/Pythagoras_Perpetual_Motion_Machine/">Steam版</a>の配信が11/13に決定しました！コントローラ操作とsteam実績が新規対応されています。 / Available at Steam on Nov 13!　New features are controller support and Steam achievement!</p>
 </dd></dl>
         
-          <dl><dt>2017.10.16</dt><dd><p><a href="https://itunes.apple.com/jp/app/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9%E3%81%AE%E6%B0%B8%E4%B9%85%E6%A9%9F%E9%96%A2/id1252012323?l=ja&amp;ls=1&amp;mt=8">iOS版</a>が英語・中国語に対応しました！ / English and Chinese supported on iOS!</p>
+        
+        
+        <dl><dt>2017.10.16</dt><dd><p><a href="https://itunes.apple.com/jp/app/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9%E3%81%AE%E6%B0%B8%E4%B9%85%E6%A9%9F%E9%96%A2/id1252012323?l=ja&amp;ls=1&amp;mt=8">iOS版</a>が英語・中国語に対応しました！ / English and Chinese supported on iOS!</p>
 </dd></dl>
         
-          <dl><dt>2017.10.09</dt><dd><p><a href="https://play.google.com/store/apps/details?id=com.marudice.Pitagora">Android版</a>が英語・中国語に対応しました. / English and Chinese supported on Android.</p>
+        
+        
+        <dl><dt>2017.10.09</dt><dd><p><a href="https://play.google.com/store/apps/details?id=com.marudice.Pitagora">Android版</a>が英語・中国語に対応しました. / English and Chinese supported on Android.</p>
 </dd></dl>
         
-          <dl><dt>2017.09.26</dt><dd><p><a href="https://play.google.com/store/apps/details?id=com.marudice.Pitagora">Google Play</a>でのダウンロード数が10000を突破しました</p>
+        
+        
+        <dl><dt>2017.09.26</dt><dd><p><a href="https://play.google.com/store/apps/details?id=com.marudice.Pitagora">Google Play</a>でのダウンロード数が10000を突破しました</p>
 </dd></dl>
         
-          <dl><dt>2017.09.21</dt><dd><p><a href="https://twitter.com/dice_maru/status/910898284868153345">Androi版がGooglePlayでの新着パズルの3位、新着ゲームの33位にランクインしました</a></p>
+        
+        
+        <dl><dt>2017.09.21</dt><dd><p><a href="https://twitter.com/dice_maru/status/910898284868153345">Androi版がGooglePlayでの新着パズルの3位、新着ゲームの33位にランクインしました</a></p>
 </dd></dl>
         
-          <dl><dt>2017.09.08</dt><dd><p><a href="https://itunes.apple.com/jp/app/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9%E3%81%AE%E6%B0%B8%E4%B9%85%E6%A9%9F%E9%96%A2/id1252012323?l=ja&amp;ls=1&amp;mt=8">iTunes Store</a>でiOS版がリリースされました</p>
+        
+        
+        <dl><dt>2017.09.08</dt><dd><p><a href="https://itunes.apple.com/jp/app/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9%E3%81%AE%E6%B0%B8%E4%B9%85%E6%A9%9F%E9%96%A2/id1252012323?l=ja&amp;ls=1&amp;mt=8">iTunes Store</a>でiOS版がリリースされました</p>
 </dd></dl>
         
-          <dl><dt>2017.09.08</dt><dd><p><a href="https://play.google.com/store/apps/details?id=com.marudice.Pitagora">Google Play</a>でAndroid版がリリースされました</p>
+        
+        
+        <dl><dt>2017.09.08</dt><dd><p><a href="https://play.google.com/store/apps/details?id=com.marudice.Pitagora">Google Play</a>でAndroid版がリリースされました</p>
 </dd></dl>
         
-          <dl><dt>2017.08.17</dt><dd><p><a href="https://ec.toranoana.shop/tora/ec/item/040030567779">とらのあな様</a>にてWindows版のパッケージ販売が始まりました</p>
+        
+        
+        <dl><dt>2017.08.17</dt><dd><p><a href="https://ec.toranoana.shop/tora/ec/item/040030567779">とらのあな様</a>にてWindows版のパッケージ販売が始まりました</p>
 </dd></dl>
         
-          <dl><dt>2017.08.17</dt><dd><p><a href="http://www.dlsite.com/home/work/=/product_id/RJ206403.html">DL site様</a>にてWindows版のダウンロード販売が始まりました</p>
+        
+        
+        <dl><dt>2017.08.17</dt><dd><p><a href="http://www.dlsite.com/home/work/=/product_id/RJ206403.html">DL site様</a>にてWindows版のダウンロード販売が始まりました</p>
 </dd></dl>
         
-          <dl><dt>2017.08.11</dt><dd><p>コミックマーケット92にて完成版を頒布しました</p>
+        
+        
+        <dl><dt>2017.08.11</dt><dd><p>コミックマーケット92にて完成版を頒布しました</p>
 </dd></dl>
+        
         
       </div>
     </div>
@@ -487,7 +569,7 @@ style="background-color: #3a78f5;">
           <dd>パズル / Puzzle</dd>
 
           <dt><span class="spec-dl-label">DEVELOPER</span></dt>
-          <dd><a href="https://marudice.com">丸ダイス / Marudice</a></dd>
+          <dd>丸ダイス / Marudice</dd>
 
         </dl>
         
@@ -496,6 +578,9 @@ style="background-color: #3a78f5;">
         <dl class="spec-dl">
           <dt><span class="spec-dl-label">RELEASE DATE</span></dt>
           <dd>2017-08-11</dd>
+
+          <dt><span class="spec-dl-label">LANGUAGE</span></dt>
+          <dd>日本語 / English / 中文</dd>
 
           
           <dt><span class="spec-dl-label">PLATFORM / STORE</span></dt>
@@ -532,6 +617,22 @@ style="background-color: #3a78f5;">
         </dl>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="l-section section-secondary-use">
+  <div class="l-container">
+      <header class="section-header">
+        <h2>
+          二次利用について
+        </h2>
+      </header>
+      <div class="section-content">
+        <p>
+          <p>プレイ画面と音声を用いた画像や動画投稿・ストリーム配信を全面的に許可します。<br /> 連絡も不要ですので自由にご利用下さい。<br /></p>
+
+        </p>
+      </div>
   </div>
 </section>
 
@@ -642,8 +743,7 @@ style="background-color: #3a78f5;">
   </div>
 </footer>
 
-<script src="https://static.tumblr.com/xxf6ewk/d2Wp79z1k/scripts.js"></script>
+<!-- <script src="https://static.tumblr.com/xxf6ewk/d2Wp79z1k/scripts.js"></script> -->
 
 </body>
 </html>
-
