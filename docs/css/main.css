@@ -5501,6 +5501,21 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0; }
 
+#portfolio .portfolio-item .portfolio-link .dev_status .dev_status-content {
+  position: absolute; }
+
+#portfolio .portfolio-item .portfolio-link .dev_status .dev_status-content {
+  position: absolute;
+  background-color: #c76065;
+  top: 6px;
+  right: 6px;
+  width: 85px;
+  height: 22px;
+  text-align: center;
+  font-size: 1.0em;
+  color: #fff;
+  border-radius: 5px; }
+
 #portfolio * {
   z-index: 2; }
 
