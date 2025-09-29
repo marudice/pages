@@ -114,7 +114,7 @@ AdMob（Google Inc.）<br/>
                 <div class="col-lg-12">
                   <span class=share-icon><a href="https://twitter.com/share?text=丸ダイス / Marudice - &url=https://marudice.com" target="_blank"><img src="/img/tweet-icon.png"/></a></span>
                   <span class=share-icon><a href="https://www.facebook.com/sharer.php?u=https://marudice.com" target="_blank"><img src="/img/fb-icon.png"/></a></span>
-                  Copyright &copy; Marudice 2025a
+                  Copyright &copy; Marudice 2025b
                   <span class=privacy-policy><a href="/privacy-policy">Our privacy policy.</a></span>
                 </div>
             </div>
@@ -156,88 +156,18 @@ AdMob（Google Inc.）<br/>
     $(function()
     {
       $('.scrollable').jScrollPane();
-$('.portfolio-item a').colorbox({
-  inline: true,
-  opacity: 0.5,
-  maxWidth: "90%",
-  width: "1000px",
-  fixed: false, // あえて absolute のまま
-  onOpen: function() {
-    // リサイズや visualViewport の変化に対応するリスナを付ける
-    $(window).on('resize.colorboxReposition', repositionColorbox);
-    if (window.visualViewport) {
-      window.visualViewport.addEventListener('resize', repositionColorbox);
-    }
-  },
-  onComplete: function() {
-    // モーダルが開いたらまず内部の max-height をセットしてスクロール可能にする
-    var vh = getViewportHeight();
-    $('#cboxLoadedContent').css({
-      'max-height': Math.floor(vh * 0.9) + 'px',
-      'overflow-y': 'auto',
-      '-webkit-overflow-scrolling': 'touch' // iOS スムーズスクロール
+      $('.portfolio-item a').colorbox({
+        inline:true,
+        opacity: 0.5,
+        width:"90%",
+        maxWidth: "1000px",
+        transition: 'none'
+        // maxHeight:"40%",
+      });
+      // $("#btn_close").click(function(){
+      //   $(this).parents('.portfolio-modal').$.fn.colorbox.close(); return false;
+      // });
     });
-
-    // 画像等の読み込みを待って再配置
-    $('#cboxLoadedContent img').each(function() {
-      if (!this.complete) {
-        $(this).one('load', function(){ requestAnimationFrame(repositionColorbox); });
-      }
-    });
-
-    // 即時にも再配置
-    requestAnimationFrame(repositionColorbox);
-  },
-  onClosed: function() {
-    // クリーンアップ
-    $(window).off('.colorboxReposition');
-    if (window.visualViewport) {
-      window.visualViewport.removeEventListener('resize', repositionColorbox);
-    }
-  }
-});
-    });
-
-/* ヘルパー関数 */
-function getViewportHeight() {
-  return (window.visualViewport && window.visualViewport.height) || window.innerHeight || document.documentElement.clientHeight;
-}
-function getViewportWidth() {
-  return (window.visualViewport && window.visualViewport.width) || window.innerWidth || document.documentElement.clientWidth;
-}
-function getScrollY() {
-  return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-}
-
-/* 再配置ロジック */
-function repositionColorbox() {
-  var $box = $('#colorbox');
-  if (!$box.length || $box.css('display') === 'none') return;
-
-  var vh = getViewportHeight();
-  var vw = getViewportWidth();
-  var scrollY = getScrollY();
-  var boxH = $box.outerHeight(true);
-  var boxW = $box.outerWidth(true);
-
-  var top;
-  var margin = 10; // 上下の最低マージン
-  if (boxH <= vh * 0.95) {
-    // モーダルがビューポートに収まるなら中央に見えるようにする
-    top = scrollY + Math.max((vh - boxH) / 2, margin);
-  } else {
-    // 大きすぎる場合はビューポートの上寄せにして内部スクロールさせる
-    top = scrollY + margin;
-  }
-
-  var left = Math.max(Math.round((vw - boxW) / 2), 0);
-
-  $box.css({
-    position: 'absolute',
-    top: Math.round(top) + 'px',
-    left: Math.round(left) + 'px'
-  });
-}
     </script>
 
     </body>
